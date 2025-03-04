@@ -8,5 +8,7 @@ namespace bt_OOP
 {
     internal interface IEmployee
     {
+        int calculateSalary();
+        string getName();
     }
 }
