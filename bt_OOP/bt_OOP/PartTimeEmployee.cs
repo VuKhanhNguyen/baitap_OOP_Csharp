@@ -8,16 +8,16 @@ namespace bt_OOP
 {
     internal class PartTimeEmployee : Employee
     {
-        private int workingHours { get; set; }
+        private int workingHours_118 { get; set; }
 
-        public PartTimeEmployee(string name, int paymentPerHour, int workingHours) : base(name, paymentPerHour)
+        public PartTimeEmployee(string name_118, int paymentPerHour_118, int workingHours_118) : base(name_118, paymentPerHour_118)
         {
-            this.workingHours = workingHours;
+            this.workingHours_118 = workingHours_118;
         }
 
         public override int calculateSalary()
         {
-            return workingHours * getPaymentPerHour();
+            return workingHours_118 * getPaymentPerHour();
         }
 
     }

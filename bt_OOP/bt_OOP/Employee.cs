@@ -9,7 +9,7 @@ namespace bt_OOP
 {
     public abstract class Employee : IEmployee
     {
-        private string name_118;
+        public string name_118;
         private int paymentPerHour_118;
 
         public void setName(string name_118)
