@@ -22,7 +22,7 @@ namespace bt_OOP
 
         public string toString()
         {
-            return base.toString() + ", Working Hours: " + ", Salary: " + calculateSalary();
+            return base.toString() + ", Working Hours: " + workingHours_118 + ", Salary: " + calculateSalary();
         }
 
     }
