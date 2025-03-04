@@ -17,5 +17,10 @@ namespace bt_OOP
         {
             return 8 * getPaymentPerHour();
         }
+
+        public string toString()
+        {
+            return base.toString() + ", Salary: " + calculateSalary();
+        }
     }
 }

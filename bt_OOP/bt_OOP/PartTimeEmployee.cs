@@ -20,5 +20,10 @@ namespace bt_OOP
             return workingHours_118 * getPaymentPerHour();
         }
 
+        public string toString()
+        {
+            return base.toString() + ", Working Hours: " + ", Salary: " + calculateSalary();
+        }
+
     }
 }
