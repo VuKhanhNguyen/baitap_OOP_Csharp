@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace bt_OOP
 {
-    internal class Employee
+    public abstract class Employee : IEmployee
     {
         private string name_118;
         private int paymentPerHour_118;
@@ -44,7 +44,7 @@ namespace bt_OOP
             this.paymentPerHour_118 = paymentPerHour_118;
         }
 
-
+        public abstract int calculateSalary();
 
     }
 }

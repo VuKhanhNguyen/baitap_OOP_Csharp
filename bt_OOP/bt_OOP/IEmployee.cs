@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace bt_OOP
 {
-    internal interface IEmployee
+    public interface IEmployee
     {
         int calculateSalary();
         string getName();
